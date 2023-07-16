@@ -48,11 +48,53 @@ nav li a{
         text-decoration: none;
         padding: 6px;
      }
-     nav>button>a:hover{
+     nav>button>a, .section1-btn>button>a:hover{
         color: beige;
      }
      /*nav css style end*/
+     .section1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        background-image: url("education img/background.jpg") ;
+        height: 100vh;
+       background-repeat: no-repeat;
+       background-position: cover;
+       background-position: center;
+       background-size: cover;
+       width: auto;
+        
+     }
+     .section1-tittle{
+        font-size:3rem;
+        font-weight: 800;
+        color: rgba(39, 188, 174, 0.666);
+     }
+     .section1-text{
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: black;
+        
+     }
+     .section1-btn>button{
+        height: 40px;
+        width: 90px;
+        background-color: rgba(27, 43, 78, 0.94);
+        border: none;
+        border-radius: 9px;
 
+        
+     }
+     .section1-btn>button>a{
+        text-decoration: none;
+        color: black;
+
+     }
+     .section1-img{
+        height: 380px;
+        
+     }
       /*responsive css style for mobile*/
 @media screen and (max-width:576px){
     /*responsive nav css style start*/
