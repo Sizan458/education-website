@@ -182,7 +182,42 @@ nav li a{
       color: tomato;
      }
      /*section 2 css style end*/
-    
+      /*section 3 css style start*/
+
+     .section3{
+       display: flex;
+       padding: 10px;
+       gap: 50px;
+       width: 70%;
+       margin: auto;
+     }
+     .section3-img{
+      height: 350px;
+      width: 450px;
+     }
+     .section3-text1{
+      width: 50%;
+      font-weight: 800;
+      font-size: 20px;
+     }
+    .section3-text2{
+      width: 90%;
+      font-weight: 300;
+      font-size: 16px;
+    }
+    .section3-btn{
+      height: 40px;
+      width:90px;
+      border-radius: 9px;
+      background-color: rgba(27, 43, 78, 0.819);
+      border: none;
+      color: black;
+      cursor: pointer;
+    }
+    .section3-btn:hover{
+      color: wheat;
+    }
+     /*section 3 css style end*/
 
    
       
@@ -248,6 +283,9 @@ nav li a{
    width: 100%;
    height:60% ;
    margin-top: 60px;
+   padding: 5px;
+   align-items: center;
+   justify-content: center;
    
        }
        .section2-text3{
@@ -256,6 +294,31 @@ nav li a{
        
        }
        /*responsive section 2 css style end*/
+        /*responsive section 3 css style start*/
+       .section3{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+       }
+       .section3-img{
+         width: 100%;
+         height: 60%;
+       }
+       .section3-text1{
+        font-size: 35px;
+        width:90%;
+        margin-left: 25px;
+        font-weight: 700;
+       }
+       .section3-text2{
+           font-size: 20px;
+         width: 100%;
+        margin-left: 10px;
+       }
+       .section3-btn{
+        margin-left: 100px;
+       }
+       /*responsive section 3 css style end*/
 
 }
 /*responsive css style for tablet , pc , laptop & */
@@ -314,4 +377,32 @@ nav li a{
    margin: auto;
    }
    /*responsive section 2 css style end*/
+     /*responsive section 3 css style start*/
+   .section3{
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+   }
+   .section3-img{
+    width: 100%;
+    height: 60%;
+   }
+   .section3-text1{
+    width: 100%;
+    font-weight: 800;
+    font-size: 22px;
+   }
+   .section3-text2{
+    width: 97%;
+    height: 80%;
+    font-size: 16px;
+    font-weight: 400;
+
+   }
+   .section3-btn{
+    margin-left: 400px;
+   }
+     /*responsive section 3 css style end*/
+
 }
