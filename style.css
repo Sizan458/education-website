@@ -104,6 +104,88 @@ nav li a{
         
      }
      /*section 1 css style end*/
+     /*section 2 css style start*/
+     .section2{
+      display: flex;
+      gap: 20px;
+      padding: 10px;
+      width:  80%;
+      margin: auto;
+
+     }
+     .section2-container{
+      border: 3px solid rgb(233, 219, 219);
+      border-radius: 16px;
+      width: 460px;
+      height: 260px;
+
+      
+
+      background-color: rgba(6, 16, 60, 0.871);
+      text-align: center;
+      position: relative;
+      bottom: 80px;
+     
+      
+     }
+     .section2-text1{
+      margin-top: 70px;
+      color:white;
+      font-weight: 700;
+      font-size: 1.5rem;
+     }
+     .section2-container>hr{
+      width: 30%;
+     }
+     .section2-text2{
+      font-weight: 500;
+      font-size: 15px;
+      color: white;
+      margin-top: 14px;
+
+     }
+     .section2-container2{
+      border: 3px solid  rgba(119, 121, 132, 0.705);
+      border-radius: 10px;
+     background-color: rgba(175, 176, 195, 0.744);
+      
+     }
+     .section2-in{
+    height: 30px;
+    outline: 0px;
+      border: none;
+      background-color: rgba(159, 165, 182, 0.705);
+
+
+      
+     
+      
+     }
+     .section2-btn{
+      height: 34px;
+      width: 60px;
+      background-color: rgba(137, 132, 166, 0.705);
+      border: none;
+      outline: none;
+
+     }
+     .section2-text3{
+    font-size: 25px;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    margin-left: 30px;
+
+     }
+     .section2-text3-text{
+      color: tomato;
+     }
+     /*section 2 css style end*/
+    
+
+   
+      
+     
 
       /*responsive css style for mobile*/
 @media screen and (max-width:576px){
